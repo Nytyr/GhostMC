@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GhostMC</string>
+    <string name="share">Compartir</string>
+    <string name="json_example">Ejemplo de JSON con keys:</string>
+    <string name="saved_keys">Fichero cargado:</string>
+    <string name="no_keys">No hay keys.</string>
+    <string name="delete_card">Eliminar</string>
+    <string name="read_card">Leer</string>
+    <string name="write_card">Clonar</string>
+    <string name="manage_keys">Keys</string>
+    <string name="save_card">Guardar tarjeta</string>
+    <string name="close_tag">Acerca el tag…</string>
+    <string name="write">Escribir</string>
+    <string name="name">Nombre…</string>
+    <string name="empty">Vacío</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="continue_question">Continuar?</string>
+    <string name="delete_saved_card">Eliminar tarjeta almacenada?</string>
+    <string name="delete_keys">Eliminar keys</string>
+    <string name="delete_keys_question">Eliminar keys cargadas?</string>
+    <string name="deleted_keys">Keys eliminadas</string>
+    <string name="deleted_card">Tarjeta eliminada</string>
+    <string name="saved_card">Tarjeta guardada</string>
+    <string name="no_mifare">Tu dispositivo no soporta MiFare Classic :(</string>
+    <string name="firs_save_card">Lee una tarjeta primero y guardala…</string>
+    <string name="loading">Cargando…</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="error">Error :(</string>
+    <string name="confirm_write">Escribir el contenido de la tarjeta seleccionada?</string>
+    <string name="error_writing">Error al escribir :(</string>
+    <string name="blocks_failed">Bloques fallidos:</string>
+    <string name="write_success">Tag escrito correctamente!</string>
+    <string name="write_block_0">Escribir bloque 0?</string>
+    <string name="select_file">Elegir fichero</string>
+    <string name="file_not_found">No se encuentra el fichero</string>
+    <string name="error_reading_file">Error leyendo el fichero</string>
+    <string name="error_parsing_json">El JSON no tiene una estructura valida</string>
+    <string name="error_validating_json">El JSON no contiene todas las keys correctamente</string>
+    <string name="select_logo">Elige un logo para el tag…</string>
+
+</resources>
