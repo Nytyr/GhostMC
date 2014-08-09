@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ghostmc.android.KeyActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/selector"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_file"/>
+        <Button
+            android:id="@+id/delete"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_keys"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/json_title"
+            style="@style/GhostTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/json_example"/>
+
+        <TextView
+            android:id="@+id/json_content"
+            style="@style/GhostTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+        [ \n
+            {&quot;key&quot;:&quot;0:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;0:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;1:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;1:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;2:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;2:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;3:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;3:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;4:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;4:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;5:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;5:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;6:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;6:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;7:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;7:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;8:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;8:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;9:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;9:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;10:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;10:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;11:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;11:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;12:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;12:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;13:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;13:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;14:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;14:B&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;15:A&quot;, &quot;value&quot;:&quot;000000000000&quot;}, \n
+            {&quot;key&quot;:&quot;15:B&quot;, &quot;value&quot;:&quot;000000000000&quot;} \n
+        ]
+        "/>
+
+    </LinearLayout>
+</ScrollView>
