@@ -46,7 +46,7 @@ public class CarouselFragment extends Fragment {
         tv.setText(name);
 
         final ImageView content = (ImageView) l.findViewById(R.id.content);
-        content.setImageResource(TagLogos.getDrawable(this.getArguments().getString("logo")));
+        content.setImageResource(TagLogos.getDrawable(this.getArguments().getString("icon")));
 
         CarouselLayout root = (CarouselLayout) l.findViewById(R.id.root);
         float scale = this.getArguments().getFloat("scale");
